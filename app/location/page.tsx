@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
+import LocationFaq from '@/components/LocationFaq'
 
 export const metadata: Metadata = {
   title: 'Service Locations | Lusso Executive Travel — North Devon & UK Airports',
@@ -292,6 +293,8 @@ export default function LocationPage() {
           </div>
         </div>
       </section>
+
+      <LocationFaq />
 
       {/* ─── CTA ─── */}
       <section style={{ background: GOLD }}>

@@ -11,6 +11,7 @@ import Reviews from '@/components/Reviews'
 import Corporate from '@/components/Corporate'
 import CtaBand from '@/components/CtaBand'
 import Contact from '@/components/Contact'
+import HomeFaq from '@/components/HomeFaq'
 import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
 import ScrollEffects from '@/components/ScrollEffects'
@@ -31,6 +32,7 @@ export default function Home() {
       <Corporate />
       <CtaBand />
       <Contact />
+      <HomeFaq />
       <Footer />
       <WhatsAppFloat />
       <ScrollEffects />

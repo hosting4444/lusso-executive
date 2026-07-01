@@ -3,6 +3,7 @@ import Nav from '@/components/Nav'
 import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
 import ScrollEffects from '@/components/ScrollEffects'
+import AboutFaq from '@/components/AboutFaq'
 
 export const metadata: Metadata = {
   title: 'About Us | Lusso Executive Travel — North Devon Chauffeur Service',
@@ -352,6 +353,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <AboutFaq />
 
       {/* ─── CLOSING CTA ─── */}
       <section style={{ background: GOLD }}>

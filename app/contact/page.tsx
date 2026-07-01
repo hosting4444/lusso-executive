@@ -4,6 +4,7 @@ import BookingBar from '@/components/BookingBar'
 import Footer from '@/components/Footer'
 import WhatsAppFloat from '@/components/WhatsAppFloat'
 import ScrollEffects from '@/components/ScrollEffects'
+import ContactFaq from '@/components/ContactFaq'
 
 export const metadata: Metadata = {
   title: 'Contact Us | Lusso Executive Travel — North Devon Chauffeur Service',
@@ -279,6 +280,8 @@ export default function ContactPage() {
 
       {/* ─── BOOKING FORM ─── */}
       <BookingBar />
+
+      <ContactFaq />
 
       {/* ─── TRAVEL WITH CONFIDENCE ─── */}
       <section style={{ background: '#111', borderTop: '1px solid rgba(255,255,255,.05)' }}>
