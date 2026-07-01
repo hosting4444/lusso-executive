@@ -373,14 +373,14 @@ export default function AboutPage() {
             }}>
               Request a Quote
             </a>
-            <a href="https://wa.me/447700000000" target="_blank" rel="noopener noreferrer" className="cta-btn" style={{
+            <a href="https://wa.me/447557261273" target="_blank" rel="noopener noreferrer" className="cta-btn" style={{
               background: '#0e0e0e', color: GOLD, fontSize: 13, letterSpacing: 1.5,
               textTransform: 'uppercase', fontWeight: 700, padding: '16px 30px',
               minHeight: 44, boxSizing: 'border-box', display: 'inline-flex', alignItems: 'center',
             }}>
               WhatsApp Us
             </a>
-            <a href="tel:+441234567890" className="cta-btn" style={{
+            <a href="tel:+447557261273" className="cta-btn" style={{
               background: '#0e0e0e', color: GOLD, fontSize: 13, letterSpacing: 1.5,
               textTransform: 'uppercase', fontWeight: 700, padding: '16px 30px',
               minHeight: 44, boxSizing: 'border-box', display: 'inline-flex', alignItems: 'center',

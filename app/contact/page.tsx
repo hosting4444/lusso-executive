@@ -17,23 +17,23 @@ const serif = "'Playfair Display',Georgia,serif"
 const contactItems = [
   {
     label: 'Call Us',
-    value: '[ Your phone number ]',
+    value: '+44 7557 261273',
     sub: 'Available 24 hours · 7 days a week',
-    href: 'tel:+441234567890',
+    href: 'tel:+447557261273',
     icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={GOLD} strokeWidth="1.3"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>,
   },
   {
     label: 'Email Us',
-    value: '[ Your email address ]',
+    value: 'lussoexecutive@gmail.com',
     sub: 'We reply within a few hours',
-    href: 'mailto:hello@lussoexecutivetravel.co.uk',
+    href: 'mailto:lussoexecutive@gmail.com',
     icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke={GOLD} strokeWidth="1.3"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg>,
   },
   {
     label: 'WhatsApp',
-    value: '[ WhatsApp number ]',
+    value: '+44 7557 261273',
     sub: 'Message us instantly',
-    href: 'https://wa.me/447700000000',
+    href: 'https://wa.me/447557261273',
     isWhatsApp: true,
     icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="#25d366"><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm4.6 12.1c-.25-.13-1.47-.72-1.7-.8-.23-.09-.4-.13-.56.13-.17.25-.65.8-.8.97-.14.17-.29.19-.54.06a6.7 6.7 0 01-3.3-2.9c-.25-.43.25-.4.71-1.32.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.78 2.72 4.3 3.81 2.51 1.08 2.51.72 2.96.68.46-.04 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18z"/></svg>,
   },
@@ -264,7 +264,7 @@ export default function ContactPage() {
               }}>
                 Request A Quote
               </a>
-              <a href="tel:+441234567890" style={{
+              <a href="tel:+447557261273" style={{
                 border: `1px solid rgba(212,175,55,.45)`, color: GOLD, fontSize: 12,
                 letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 700,
                 padding: '14px 24px', display: 'inline-flex', alignItems: 'center', borderRadius: 6,
@@ -305,7 +305,7 @@ export default function ContactPage() {
             }}>
               Request A Quote
             </a>
-            <a href="tel:+441234567890" className="hero-call-btn" style={{
+            <a href="tel:+447557261273" className="hero-call-btn" style={{
               border: '1px solid rgba(212,175,55,.55)', color: GOLD, fontSize: 13,
               letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 700,
               padding: '17px 32px', minHeight: 44, boxSizing: 'border-box',

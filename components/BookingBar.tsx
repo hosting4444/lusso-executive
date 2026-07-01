@@ -16,7 +16,7 @@ export default function BookingBar() {
       'Date & time: ' + (val('datetime') || '—'),
       'Passengers: ' + (val('passengers') || '—'),
     ].join('\n')
-    window.open('https://wa.me/447700000000?text=' + encodeURIComponent(msg), '_blank')
+    window.open('https://wa.me/447557261273?text=' + encodeURIComponent(msg), '_blank')
     setSubmitted(true)
     setTimeout(() => setSubmitted(false), 10000)
   }

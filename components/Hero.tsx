@@ -39,7 +39,7 @@ export default function Hero() {
             <a href="#booking" className="btn-shimmer" style={{ background: '#d4af37', color: '#0e0e0e', fontSize: 13, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 700, padding: '17px 32px', minHeight: 44, boxSizing: 'border-box', display: 'inline-flex', alignItems: 'center' }}>
               Get a Fixed Quote
             </a>
-            <a href="tel:+441234567890" className="hero-call-btn" style={{ border: '1px solid rgba(212,175,55,.55)', color: '#d4af37', fontSize: 13, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 700, padding: '17px 32px', minHeight: 44, boxSizing: 'border-box', display: 'inline-flex', alignItems: 'center', borderRadius: 8 }}>
+            <a href="tel:+447557261273" className="hero-call-btn" style={{ border: '1px solid rgba(212,175,55,.55)', color: '#d4af37', fontSize: 13, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 700, padding: '17px 32px', minHeight: 44, boxSizing: 'border-box', display: 'inline-flex', alignItems: 'center', borderRadius: 8 }}>
               Call Us Now
             </a>
           </div>

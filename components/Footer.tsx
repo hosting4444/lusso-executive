@@ -16,15 +16,15 @@ export default function Footer() {
             Licensed private hire chauffeur service — North Devon, Exeter &amp; all major UK airports.
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-            <a href="tel:+441234567890" className="footer-link">
+            <a href="tel:+447557261273" className="footer-link">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ flexShrink: 0 }}><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
-              [ Your phone number ]
+              +44 7557 261273
             </a>
-            <a href="mailto:hello@lussoexecutivetravel.co.uk" className="footer-link">
+            <a href="mailto:lussoexecutive@gmail.com" className="footer-link">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ flexShrink: 0 }}><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M4 7l8 6 8-6"/></svg>
-              [ Your email address ]
+              lussoexecutive@gmail.com
             </a>
-            <a href="https://wa.me/447700000000" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ color: '#25d366' }}>
+            <a href="https://wa.me/447557261273" target="_blank" rel="noopener noreferrer" className="footer-link" style={{ color: '#25d366' }}>
               <svg width="13" height="13" viewBox="0 0 24 24" fill="#25d366" style={{ flexShrink: 0 }}><path d="M12 2a10 10 0 00-8.6 15l-1.3 4.7 4.8-1.3A10 10 0 1012 2zm4.6 12.1c-.25-.13-1.47-.72-1.7-.8-.23-.09-.4-.13-.56.13-.17.25-.65.8-.8.97-.14.17-.29.19-.54.06a6.7 6.7 0 01-3.3-2.9c-.25-.43.25-.4.71-1.32.08-.17.04-.31-.02-.44-.06-.13-.56-1.35-.77-1.85-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.88.86-.88 2.1s.9 2.43 1.03 2.6c.13.17 1.78 2.72 4.3 3.81 2.51 1.08 2.51.72 2.96.68.46-.04 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18z"/></svg>
               WhatsApp Us
             </a>
