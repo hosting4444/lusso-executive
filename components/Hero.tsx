@@ -44,9 +44,9 @@ export default function Hero() {
             </a>
           </div>
           <div className="h-a5" style={{ display: 'flex', gap: 30, flexWrap: 'wrap' }}>
-            <span style={{ fontSize: 12, letterSpacing: 1, color: '#9a9a94' }}><span style={{ color: '#d4af37' }}>●</span>&nbsp;&nbsp;Licensed &amp; Insured</span>
-            <span style={{ fontSize: 12, letterSpacing: 1, color: '#9a9a94' }}><span style={{ color: '#d4af37' }}>●</span>&nbsp;&nbsp;DBS Checked Drivers</span>
-            <span style={{ fontSize: 12, letterSpacing: 1, color: '#9a9a94' }}><span style={{ color: '#d4af37' }}>●</span>&nbsp;&nbsp;24/7 Availability</span>
+            <span style={{ fontSize: 12, letterSpacing: 1, color: '#9a9a94' }}><span style={{ color: '#d4af37' }}>●</span>&nbsp;&nbsp;Licensed</span>
+            <span style={{ fontSize: 12, letterSpacing: 1, color: '#9a9a94' }}><span style={{ color: '#d4af37' }}>●</span>&nbsp;&nbsp;DBS Checked</span>
+            <span style={{ fontSize: 12, letterSpacing: 1, color: '#9a9a94' }}><span style={{ color: '#d4af37' }}>●</span>&nbsp;&nbsp;Fully Insured</span>
           </div>
         </div>
       </div>

@@ -29,6 +29,30 @@ export default function Footer() {
               WhatsApp Us
             </a>
           </div>
+
+          <div style={{ display: 'flex', gap: 12, marginTop: 22 }}>
+            <a href="#" aria-label="Facebook" className="footer-social-link" style={{
+              width: 32, height: 32, borderRadius: '50%',
+              border: '1px solid rgba(255,255,255,.12)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888',
+            }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 10-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.89 3.78-3.89 1.1 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56V12h2.78l-.44 2.89h-2.34v6.99A10 10 0 0022 12z"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" className="footer-social-link" style={{
+              width: 32, height: 32, borderRadius: '50%',
+              border: '1px solid rgba(255,255,255,.12)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888',
+            }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></svg>
+            </a>
+            <a href="#" aria-label="LinkedIn" className="footer-social-link" style={{
+              width: 32, height: 32, borderRadius: '50%',
+              border: '1px solid rgba(255,255,255,.12)',
+              display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#888',
+            }}>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M6.94 8.5H3.56V20h3.38V8.5zM5.25 3.5a1.96 1.96 0 100 3.92 1.96 1.96 0 000-3.92zM20.45 20h-3.37v-5.6c0-1.34-.02-3.06-1.86-3.06-1.87 0-2.16 1.46-2.16 2.96V20H9.68V8.5h3.24v1.57h.05c.45-.86 1.56-1.77 3.2-1.77 3.43 0 4.06 2.26 4.06 5.19V20z"/></svg>
+            </a>
+          </div>
         </div>
 
         {/* Col 2: Services */}
@@ -61,9 +85,9 @@ export default function Footer() {
         <div style={{ maxWidth: 1100, margin: '0 auto', padding: '18px 40px', display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 16, flexWrap: 'wrap' }}>
           <span style={{ fontSize: 11, letterSpacing: .3, color: '#404040' }}>© 2026 Lusso Executive Travel. All rights reserved. &nbsp;·&nbsp; Licensed Private Hire Operator.</span>
           <div style={{ display: 'flex', gap: 22 }}>
-            <a href="#" className="footer-bottom-link">Privacy</a>
-            <a href="#" className="footer-bottom-link">Terms</a>
-            <a href="#" className="footer-bottom-link">Cookies</a>
+            <a href="/privacy" className="footer-bottom-link">Privacy</a>
+            <a href="/terms" className="footer-bottom-link">Terms</a>
+            <a href="/cookies" className="footer-bottom-link">Cookies</a>
           </div>
         </div>
       </div>

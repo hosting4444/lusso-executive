@@ -119,6 +119,8 @@ a { text-decoration: none; color: inherit; }
 .footer-nav-link:hover::after { width:100%; }
 .footer-bottom-link { font-size:11px; color:#484848; text-decoration:none; transition:color .25s ease; letter-spacing:.4px; }
 .footer-bottom-link:hover { color:#d4af37; }
+.footer-social-link { transition:color .25s ease, border-color .25s ease; }
+.footer-social-link:hover { color:#d4af37 !important; border-color:rgba(212,175,55,.5) !important; }
 
 /* ── contact section ── */
 .contact-row { display:flex; align-items:center; gap:20px; padding:16px 0; border-bottom:1px solid rgba(255,255,255,.05); text-decoration:none; color:inherit; position:relative; }
