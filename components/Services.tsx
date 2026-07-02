@@ -2,9 +2,21 @@ export default function Services() {
   return (
     <section id="services" style={{ background: '#0e0e0e', borderTop: '1px solid rgba(255,255,255,.05)' }}>
       <div style={{ maxWidth: 1280, margin: '0 auto', padding: '104px 32px' }}>
-        <div data-reveal="1">
-          <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>What we do</div>
-          <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 56px' }}>Our <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Services</em></h2>
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(300px,1fr))', gap: 56, alignItems: 'center', marginBottom: 56 }}>
+          <div data-reveal="1">
+            <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>What we do</div>
+            <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>Our <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Services</em></h2>
+          </div>
+          <div data-reveal="1" style={{ padding: 10 }}>
+            <div className="about-img-wrap">
+              <div style={{
+                width: '100%', aspectRatio: '4/3',
+                backgroundImage: "url('https://images.unsplash.com/photo-1730800328198-f9efbf9db53f?auto=format&fit=crop&w=1400&q=72')",
+                backgroundSize: 'cover', backgroundPosition: 'center',
+                border: '1px solid rgba(255,255,255,.07)',
+              }} />
+            </div>
+          </div>
         </div>
         <div id="srv-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(240px,1fr))', gap: 18 }}>
 

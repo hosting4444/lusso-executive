@@ -1,3 +1,18 @@
+const tayronInterior = [
+  {
+    src: 'https://images.unsplash.com/photo-1649136378672-b965cb9935d5?auto=format&fit=crop&w=900&q=72',
+    label: 'Leather Seats',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1778938370787-427b11040c5d?auto=format&fit=crop&w=900&q=72',
+    label: 'Ambient Lighting',
+  },
+  {
+    src: 'https://images.unsplash.com/photo-1770290405640-5daf7593c92a?auto=format&fit=crop&w=900&q=72',
+    label: 'Rear Passenger Comfort',
+  },
+]
+
 const vehicles = [
   {
     src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Volkswagen_Tayron_-_01.jpg/1280px-Volkswagen_Tayron_-_01.jpg',
@@ -51,6 +66,26 @@ export default function Fleet() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div style={{ marginTop: 56 }}>
+          <div style={{ fontSize: 10, letterSpacing: 3, textTransform: 'uppercase', color: '#d4af37', marginBottom: 16 }}>Inside the Tayron</div>
+          <h3 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 24px' }}>Interior <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Comfort</em></h3>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(220px,1fr))', gap: 18 }}>
+            {tayronInterior.map((shot) => (
+              <div key={shot.label}>
+                <div className="about-img-wrap">
+                  <div style={{
+                    width: '100%', aspectRatio: '4/3',
+                    backgroundImage: `url('${shot.src}')`,
+                    backgroundSize: 'cover', backgroundPosition: 'center',
+                    border: '1px solid rgba(255,255,255,.07)',
+                  }} />
+                </div>
+                <div style={{ fontSize: 11, letterSpacing: 1.5, textTransform: 'uppercase', color: '#888', marginTop: 14, textAlign: 'center' }}>{shot.label}</div>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
