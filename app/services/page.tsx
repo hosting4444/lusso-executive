@@ -9,9 +9,9 @@ import WhatsAppFloat from '@/components/WhatsAppFloat'
 import ScrollEffects from '@/components/ScrollEffects'
 
 export const metadata: Metadata = {
-  title: 'Chauffeur Services North Devon & UK Airports | Lusso Executive Travel',
+  title: 'Lusso Executive Travel',
   description:
-    'Professional chauffeur services across North Devon, Exeter & all major UK airports. Airport transfers, corporate travel, executive journeys & meet & greet. Fixed fares, flight tracking, 24/7.',
+    'Licensed private hire chauffeur service in North Devon offering executive airport transfers, corporate travel and meet & greet across Devon and all major UK airports.',
 }
 
 const GOLD = '#d4af37'
@@ -182,6 +182,15 @@ export default function ServicesPage() {
             'Fixed fare confirmed before you travel',
             'Chilled water, phone charging and a spotless cabin',
           ]} />
+
+          <div className="about-img-wrap">
+            <div style={{
+              width: '100%', aspectRatio: '4/3',
+              backgroundImage: "url('/images/lusso-airport-transfers-banner.png')",
+              backgroundSize: 'cover', backgroundPosition: 'center',
+              border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
+            }} />
+          </div>
         </div>
       </section>
 
@@ -261,6 +270,15 @@ export default function ServicesPage() {
             'Discreet, professional chauffeur',
             'Fixed fare agreed before departure',
           ]} />
+
+          <div className="about-img-wrap">
+            <div style={{
+              width: '100%', aspectRatio: '4/3',
+              backgroundImage: "url('/images/lusso-wedding-banner.png')",
+              backgroundSize: 'cover', backgroundPosition: 'center',
+              border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
+            }} />
+          </div>
         </div>
       </section>
 
