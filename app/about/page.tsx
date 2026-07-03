@@ -84,7 +84,7 @@ export default function AboutPage() {
           <div className="about-img-wrap">
             <div style={{
               width: '100%', aspectRatio: '4/3',
-              backgroundImage: "url('https://images.unsplash.com/photo-1485291571150-772bcfc10da5?auto=format&fit=crop&w=1400&q=72')",
+              backgroundImage: "url('/images/tayron-front-beach.jpeg')",
               backgroundSize: 'cover', backgroundPosition: 'center',
               border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
             }} />
@@ -139,7 +139,7 @@ export default function AboutPage() {
             <div className="about-img-wrap">
               <div style={{
                 display: 'block', width: '100%', aspectRatio: '4/3',
-                backgroundImage: "url('https://images.unsplash.com/photo-1699506612941-9282c50c374d?auto=format&fit=crop&w=1400&q=72')",
+                backgroundImage: "url('/images/tayron-side-studio.jpeg')",
                 backgroundSize: 'cover', backgroundPosition: 'center',
                 border: '1px solid rgba(255,255,255,.07)',
               }} />

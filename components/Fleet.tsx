@@ -1,27 +1,27 @@
 const tayronInterior = [
   {
-    src: 'https://images.unsplash.com/photo-1649136378672-b965cb9935d5?auto=format&fit=crop&w=900&q=72',
+    src: 'https://images.unsplash.com/photo-1605647381739-9bba88b1c5d1?auto=format&fit=crop&w=900&q=72',
     label: 'Leather Seats',
   },
   {
-    src: 'https://images.unsplash.com/photo-1778938370787-427b11040c5d?auto=format&fit=crop&w=900&q=72',
+    src: 'https://images.unsplash.com/photo-1672052520176-3839fd89782e?auto=format&fit=crop&w=900&q=72',
     label: 'Ambient Lighting',
   },
   {
-    src: 'https://images.unsplash.com/photo-1770290405640-5daf7593c92a?auto=format&fit=crop&w=900&q=72',
+    src: 'https://images.unsplash.com/photo-1655286197551-c325d396c382?auto=format&fit=crop&w=900&q=72',
     label: 'Rear Passenger Comfort',
   },
 ]
 
 const vehicles = [
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Volkswagen_Tayron_-_01.jpg/1280px-Volkswagen_Tayron_-_01.jpg',
+    src: '/images/tayron-front-beach.jpeg',
     name: 'Volkswagen Tayron',
     badge: 'Executive SUV',
     tags: ['Up to 5 passengers', 'Ample luggage', 'Leather interior'],
   },
   {
-    src: 'https://images.unsplash.com/photo-1755287614332-8c8099f9be73?auto=format&fit=crop&w=1200&q=72',
+    src: '/images/tayron-rear-studio.jpeg',
     name: 'Executive Saloon',
     badge: 'Business Class',
     tags: ['Up to 4 passengers', 'Climate control', 'USB charging'],

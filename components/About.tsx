@@ -37,7 +37,7 @@ export default function About() {
             <div
               style={{
                 display: 'block', width: '100%', aspectRatio: '4/3',
-                backgroundImage: "url('https://images.unsplash.com/photo-1699506612941-9282c50c374d?auto=format&fit=crop&w=1400&q=72')",
+                backgroundImage: "url('/images/tayron-front-street.jpeg')",
                 backgroundSize: 'cover', backgroundPosition: 'center',
                 border: '1px solid rgba(255,255,255,.07)',
               }}

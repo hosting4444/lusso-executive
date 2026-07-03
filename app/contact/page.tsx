@@ -96,7 +96,7 @@ export default function ContactPage() {
           <div className="about-img-wrap">
             <div style={{
               width: '100%', aspectRatio: '4/3',
-              backgroundImage: "url('https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=1400&q=72')",
+              backgroundImage: "url('/images/tayron-poster.png')",
               backgroundSize: 'cover', backgroundPosition: 'center',
               border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
             }} />

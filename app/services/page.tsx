@@ -132,7 +132,7 @@ export default function ServicesPage() {
           <div className="about-img-wrap">
             <div style={{
               width: '100%', aspectRatio: '4/3',
-              backgroundImage: "url('https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1400&q=72')",
+              backgroundImage: "url('https://images.unsplash.com/photo-1772468237159-674f05233185?auto=format&fit=crop&w=1400&q=72')",
               backgroundSize: 'cover', backgroundPosition: 'center',
               border: '1px solid rgba(255,255,255,.07)',
               borderRadius: 4,
@@ -221,15 +221,6 @@ export default function ServicesPage() {
             </p>
             <ArrowLink href="/contact">Open a Corporate Account</ArrowLink>
           </div>
-
-          <div style={{ gridColumn: '1 / -1' }} className="about-img-wrap">
-            <div style={{
-              width: '100%', aspectRatio: '21/9',
-              backgroundImage: "url('https://images.unsplash.com/photo-1772468237159-674f05233185?auto=format&fit=crop&w=1800&q=72')",
-              backgroundSize: 'cover', backgroundPosition: 'center',
-              border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
-            }} />
-          </div>
         </div>
       </section>
 
@@ -307,15 +298,6 @@ export default function ServicesPage() {
               First-time visitors, international arrivals and anyone who wants a welcome rather than a wait.
             </p>
             <ArrowLink href="#booking">Book a Meet &amp; Greet</ArrowLink>
-          </div>
-
-          <div style={{ gridColumn: '1 / -1' }} className="about-img-wrap">
-            <div style={{
-              width: '100%', aspectRatio: '21/9',
-              backgroundImage: "url('https://images.unsplash.com/photo-1771775751121-3091d79073d4?auto=format&fit=crop&w=1800&q=72')",
-              backgroundSize: 'cover', backgroundPosition: 'center',
-              border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
-            }} />
           </div>
         </div>
       </section>
