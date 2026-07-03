@@ -213,7 +213,7 @@ export default function LocationPage() {
           <div className="about-img-wrap">
             <div style={{
               width: '100%', aspectRatio: '4/3',
-              backgroundImage: "url('https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?auto=format&fit=crop&w=1400&q=72')",
+              backgroundImage: "url('/images/lusso-tayron-hotel.png')",
               backgroundSize: 'cover', backgroundPosition: 'center',
               border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
             }} />

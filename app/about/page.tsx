@@ -200,6 +200,15 @@ export default function AboutPage() {
               ))}
             </div>
           </div>
+
+          <div className="about-img-wrap" style={{ marginTop: 56 }}>
+            <div style={{
+              width: '100%', aspectRatio: '1221/211',
+              backgroundImage: "url('/images/lusso-amenities-strip.png')",
+              backgroundSize: 'cover', backgroundPosition: 'center',
+              border: '1px solid rgba(255,255,255,.07)',
+            }} />
+          </div>
         </div>
       </section>
 

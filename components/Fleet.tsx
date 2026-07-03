@@ -8,8 +8,12 @@ const tayronInterior = [
     label: 'Ambient Lighting',
   },
   {
-    src: 'https://images.unsplash.com/photo-1655286197551-c325d396c382?auto=format&fit=crop&w=900&q=72',
+    src: '/images/lusso-rear-seats.png',
     label: 'Rear Passenger Comfort',
+  },
+  {
+    src: '/images/lusso-refreshments.png',
+    label: 'Refreshments Onboard',
   },
 ]
 

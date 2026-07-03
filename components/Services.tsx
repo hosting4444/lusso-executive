@@ -11,7 +11,7 @@ export default function Services() {
             <div className="about-img-wrap">
               <div style={{
                 width: '100%', aspectRatio: '4/3',
-                backgroundImage: "url('https://images.unsplash.com/photo-1730800328198-f9efbf9db53f?auto=format&fit=crop&w=1400&q=72')",
+                backgroundImage: "url('/images/lusso-departures-luggage.jpeg')",
                 backgroundSize: 'cover', backgroundPosition: 'center',
                 border: '1px solid rgba(255,255,255,.07)',
               }} />
