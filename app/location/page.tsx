@@ -18,55 +18,76 @@ const pickups = [
     num: '01',
     name: 'Barnstaple',
     desc: 'The main market town of North Devon and our home base — door-to-door collection for all airport and executive transfers.',
-    img: 'https://images.unsplash.com/photo-1533929736458-ca588d08c8be?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Barnstaple%20Long%20Bridge%20(8178574763).jpg?width=1024',
+    credit: 'Darren Shilson, CC BY 2.0, via Wikimedia Commons',
   },
   {
     num: '02',
     name: 'Bideford',
     desc: 'Historic port town on the Torridge estuary — early-morning and late-night pickups available, fixed fare confirmed up front.',
-    img: 'https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bideford%20Bridge%2C%20River%20Torridge%2C%20North%20Devon.jpg?width=1024',
+    credit: 'Rosser1954, CC BY-SA 4.0, via Wikimedia Commons',
   },
   {
     num: '03',
     name: 'Ilfracombe',
     desc: "North Devon's seaside resort — reliable chauffeur collection with ample luggage space for family or group travel.",
-    img: 'https://images.unsplash.com/photo-1541943181603-d8fe267a5dcf?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Damien%20Hirst%27s%20Verity%20at%20Ilfracombe%20harbour%20-%20geograph.org.uk%20-%203505495.jpg?width=1024',
+    credit: 'Gareth James, CC BY-SA 2.0, via Wikimedia Commons',
   },
   {
     num: '04',
     name: 'Braunton',
     desc: 'Gateway to Croyde and Saunton beaches — flexible pickups at any hour to any major UK airport.',
-    img: 'https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/The%20church%20of%20St%20Brannock%20at%20Braunton%20-%20geograph.org.uk%20-%203702368.jpg?width=1024',
+    credit: 'Peter Wood, CC BY-SA 2.0, via Wikimedia Commons',
   },
   {
     num: '05',
     name: 'South Molton',
     desc: 'A traditional Devon market town fully covered for all airport transfers and long-distance executive journeys.',
-    img: 'https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Market%20House%2C%20South%20Molton%20-%20geograph.org.uk%20-%204677984.jpg?width=1024',
+    credit: 'Derek Harper, CC BY-SA 2.0, via Wikimedia Commons',
   },
   {
     num: '06',
     name: 'Exeter',
     desc: "Devon's vibrant capital — corporate travel, airport transfers and executive journeys served with punctuality and care.",
-    img: 'https://images.unsplash.com/photo-1523531294919-4bcd7c65e216?auto=format&fit=crop&w=800&q=72',
+    img: 'https://images.unsplash.com/photo-1713039677353-d93496e5da44?auto=format&fit=crop&w=1000&q=75',
   },
   {
     num: '07',
     name: 'Croyde',
     desc: "Devon's premier surf village — flexible chauffeur pickups to any UK airport, any time of day or night.",
-    img: 'https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=72',
+    img: 'https://images.unsplash.com/photo-1544645602-10c93a552cde?auto=format&fit=crop&w=1000&q=75',
   },
   {
     num: '08',
     name: 'Westward Ho!',
     desc: 'Classic North Devon seaside town — all airport transfers covered with a fixed fare and no surprises.',
-    img: 'https://images.unsplash.com/photo-1504019347908-b45f9b0b8dd5?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Westward%20Ho!%20shingle%20bank%2C%20North%20Devon%2C%20England.jpg?width=1024',
+    credit: 'Rosser1954, CC BY-SA 4.0, via Wikimedia Commons',
   },
   {
     num: '09',
     name: 'Lynton',
     desc: 'Scenic cliff-top village on the edge of Exmoor — full chauffeur service including early departures and late returns.',
-    img: 'https://images.unsplash.com/photo-1519451241324-20b4ea2c4220?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Railway%20carriage%20on%20Cliff%20Railway%2C%20Lynton%20-%20geograph.org.uk%20-%207122595.jpg?width=1024',
+    credit: 'David Smith, CC BY-SA 2.0, via Wikimedia Commons',
+  },
+  {
+    num: '10',
+    name: 'Tiverton',
+    desc: 'Historic market town on the edge of Exmoor National Park — full chauffeur coverage for airport and executive transfers.',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Tiverton%20Castle%2C%20Devon%20-%20geograph.org.uk%20-%203682883.jpg?width=1024',
+    credit: 'Derek Voller, CC BY-SA 2.0, via Wikimedia Commons',
+  },
+  {
+    num: '11',
+    name: 'Okehampton',
+    desc: 'Gateway town to Dartmoor National Park — reliable door-to-door pickups for airport and long-distance journeys.',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Okehampton%20Castle%20-%20geograph.org.uk%20-%207760989.jpg?width=1024',
+    credit: 'Michael Garlick, CC BY-SA 2.0, via Wikimedia Commons',
   },
 ]
 
@@ -76,42 +97,45 @@ const airports = [
     name: 'Heathrow',
     tag: 'London',
     desc: "London's largest international airport. Direct transfers with real-time flight tracking and full meet & greet.",
-    img: 'https://images.unsplash.com/photo-1530521954074-e64f6810b32d?auto=format&fit=crop&w=800&q=72',
+    img: 'https://images.unsplash.com/photo-1571514926545-c61ae8be36be?auto=format&fit=crop&w=1000&q=75',
   },
   {
     num: '02',
     name: 'Gatwick',
     tag: 'London',
     desc: "London's second international hub. Fixed-fare transfers from North Devon with a name board at arrivals.",
-    img: 'https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Gatwick%20North%20Terminal%20122.JPG?width=1024',
   },
   {
     num: '03',
     name: 'Bristol',
     tag: 'Bristol',
     desc: 'The South West\'s gateway airport. One of our most popular routes — comfortable, punctual and fixed price.',
-    img: 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20Airport%20terminal%20and%20Control%20Tower%20-%20June%202025.jpg?width=1024',
+    credit: 'Captain Galaxy, CC BY 4.0, via Wikimedia Commons',
   },
   {
     num: '04',
     name: 'Exeter',
     tag: 'Local',
     desc: 'The closest airport to North Devon. Short transfer time with full meet & greet included as standard.',
-    img: 'https://images.unsplash.com/photo-1474302770737-173ee21bab63?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Departures%20at%20Exeter%20International%20Airport%20-%20geograph.org.uk%20-%202541798.jpg?width=1024',
+    credit: 'Bill Boaden, CC BY-SA 2.0, via Wikimedia Commons',
   },
   {
     num: '05',
     name: 'Birmingham',
     tag: 'Midlands',
     desc: "The Midlands' main international hub. Long-distance executive transfer in a comfortable, immaculate vehicle.",
-    img: 'https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Birmingham%20airport%20entrance.JPG?width=1024',
   },
   {
     num: '06',
     name: 'Luton',
     tag: 'London',
     desc: "London's fourth airport. Fixed fares, flight tracking and complimentary waiting time for delayed flights.",
-    img: 'https://images.unsplash.com/photo-1540962351504-03099e0a754b?auto=format&fit=crop&w=800&q=72',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Control%20Tower%20at%20London%20Luton%20Airport%20-%20geograph.org.uk%20-%205703549.jpg?width=1024',
+    credit: 'Geographer, CC BY-SA 2.0, via Wikimedia Commons',
   },
 ]
 
@@ -291,6 +315,9 @@ export default function LocationPage() {
               {' '}— we cover all UK airports, not just the ones listed above.
             </span>
           </div>
+          <p style={{ fontSize: 10.5, lineHeight: 1.8, color: '#3a3a3a', margin: '28px 0 0', maxWidth: 900 }}>
+            Photo credits: {[...pickups, ...airports].filter(p => p.credit).map(p => `${p.name} — ${p.credit}`).join(' · ')}
+          </p>
         </div>
       </section>
 

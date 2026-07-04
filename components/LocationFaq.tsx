@@ -3,7 +3,7 @@ import Faq from './Faq'
 const faqs = [
   {
     q: 'Which areas do you collect from?',
-    a: 'We collect door-to-door across North Devon and Exeter, including Barnstaple, Bideford, Ilfracombe, Braunton, South Molton, Croyde, Westward Ho! and Lynton.',
+    a: 'We collect door-to-door across North Devon and Exeter, including Barnstaple, Bideford, Ilfracombe, Braunton, South Molton, Croyde, Westward Ho!, Lynton, Tiverton and Okehampton.',
   },
   {
     q: 'Do you travel outside North Devon?',

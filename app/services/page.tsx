@@ -132,7 +132,7 @@ export default function ServicesPage() {
           <div className="about-img-wrap">
             <div style={{
               width: '100%', aspectRatio: '4/3',
-              backgroundImage: "url('https://images.unsplash.com/photo-1772468237159-674f05233185?auto=format&fit=crop&w=1400&q=72')",
+              backgroundImage: "url('https://images.pexels.com/photos/7594130/pexels-photo-7594130.jpeg?auto=compress&cs=tinysrgb&w=1400&h=1050&fit=crop')",
               backgroundSize: 'cover', backgroundPosition: 'center',
               border: '1px solid rgba(255,255,255,.07)',
               borderRadius: 4,
@@ -182,15 +182,6 @@ export default function ServicesPage() {
             'Fixed fare confirmed before you travel',
             'Chilled water, phone charging and a spotless cabin',
           ]} />
-
-          <div className="about-img-wrap">
-            <div style={{
-              width: '100%', aspectRatio: '4/3',
-              backgroundImage: "url('/images/lusso-airport-transfers-banner.png')",
-              backgroundSize: 'cover', backgroundPosition: 'center',
-              border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
-            }} />
-          </div>
         </div>
       </section>
 
@@ -270,15 +261,6 @@ export default function ServicesPage() {
             'Discreet, professional chauffeur',
             'Fixed fare agreed before departure',
           ]} />
-
-          <div className="about-img-wrap">
-            <div style={{
-              width: '100%', aspectRatio: '4/3',
-              backgroundImage: "url('/images/lusso-wedding-banner.png')",
-              backgroundSize: 'cover', backgroundPosition: 'center',
-              border: '1px solid rgba(255,255,255,.07)', borderRadius: 4,
-            }} />
-          </div>
         </div>
       </section>
 
