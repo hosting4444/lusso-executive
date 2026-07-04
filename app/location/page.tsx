@@ -59,14 +59,15 @@ const pickups = [
     num: '07',
     name: 'Croyde',
     desc: "Devon's premier surf village — flexible chauffeur pickups to any UK airport, any time of day or night.",
-    img: 'https://images.unsplash.com/photo-1544645602-10c93a552cde?auto=format&fit=crop&w=1000&q=75',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Cottages%20on%20Pathdown%20Lane%2C%20Croyde%20-%20geograph.org.uk%20-%201930263.jpg?width=1024',
+    credit: 'Roger A Smith, CC BY-SA 2.0, via Wikimedia Commons',
   },
   {
     num: '08',
     name: 'Westward Ho!',
     desc: 'Classic North Devon seaside town — all airport transfers covered with a fixed fare and no surprises.',
-    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Westward%20Ho!%20shingle%20bank%2C%20North%20Devon%2C%20England.jpg?width=1024',
-    credit: 'Rosser1954, CC BY-SA 4.0, via Wikimedia Commons',
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Holy%20Trinity%20Church%20at%20Westward%20Ho%5E%20-%20geograph.org.uk%20-%203702291.jpg?width=1024',
+    credit: 'Peter Wood, CC BY-SA 2.0, via Wikimedia Commons',
   },
   {
     num: '09',

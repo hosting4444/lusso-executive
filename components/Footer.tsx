@@ -59,10 +59,10 @@ export default function Footer() {
         <div>
           <div style={{ fontSize: 9, letterSpacing: 3, textTransform: 'uppercase', color: '#d4af37', marginBottom: 20 }}>Services</div>
           <nav style={{ display: 'flex', flexDirection: 'column', gap: 13 }}>
-            <a href="#services" className="footer-nav-link">Airport Transfers</a>
-            <a href="#services" className="footer-nav-link">Corporate Travel</a>
-            <a href="#services" className="footer-nav-link">Meet &amp; Greet</a>
-            <a href="#services" className="footer-nav-link">Executive Transfers</a>
+            <a href="/services#airport-transfers" className="footer-nav-link">Airport Transfers</a>
+            <a href="/services#corporate-travel" className="footer-nav-link">Corporate Travel</a>
+            <a href="/services#meet-greet" className="footer-nav-link">Meet &amp; Greet</a>
+            <a href="/services#executive-transfers" className="footer-nav-link">Executive Transfers</a>
           </nav>
         </div>
 
@@ -74,7 +74,7 @@ export default function Footer() {
             <a href="/location" className="footer-nav-link">Location</a>
             <a href="/contact" className="footer-nav-link">Contact Us</a>
             <a href="/services" className="footer-nav-link">Our Services</a>
-            <a href="#quote"   className="footer-nav-link">Get a Quote</a>
+            <a href="/contact#booking" className="footer-nav-link">Get a Quote</a>
           </nav>
         </div>
 
