@@ -12,10 +12,6 @@ const tayronInterior = [
     label: 'VIP Lounge Seating',
   },
   {
-    src: '/images/lusso-rear-seats.png',
-    label: 'Rear Passenger Comfort',
-  },
-  {
     src: '/images/lusso-refreshments.png',
     label: 'Refreshments Onboard',
   },
