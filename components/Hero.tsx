@@ -12,8 +12,8 @@ export default function Hero() {
         data-kb="1"
         style={{
           position: 'absolute', inset: 0, width: '100%', height: '100%',
-          backgroundImage: "url('https://images.unsplash.com/photo-1564779067972-d2c2672776f9?auto=format&fit=crop&w=2000&q=72')",
-          backgroundSize: 'cover', backgroundPosition: 'center',
+          backgroundImage: "url('/images/lusso-hero-mercedes.jpg')",
+          backgroundSize: 'cover', backgroundPosition: '80% center',
         }}
       />
       {/* Gradients */}

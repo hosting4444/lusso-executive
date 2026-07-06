@@ -1,11 +1,15 @@
 const tayronInterior = [
   {
-    src: 'https://images.unsplash.com/photo-1605647381739-9bba88b1c5d1?auto=format&fit=crop&w=900&q=72',
+    src: '/images/lusso-interior-orange-leather.jpeg',
     label: 'Leather Seats',
   },
   {
-    src: 'https://images.unsplash.com/photo-1672052520176-3839fd89782e?auto=format&fit=crop&w=900&q=72',
+    src: '/images/lusso-interior-starlight.jpeg',
     label: 'Ambient Lighting',
+  },
+  {
+    src: '/images/lusso-interior-vip-lounge.jpeg',
+    label: 'VIP Lounge Seating',
   },
   {
     src: '/images/lusso-rear-seats.png',
