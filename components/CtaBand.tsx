@@ -2,9 +2,9 @@ export default function CtaBand() {
   return (
     <section id="quote" style={{ background: '#d4af37' }}>
       <div data-reveal="1" style={{ maxWidth: 1280, margin: '0 auto', padding: '78px 32px', textAlign: 'center' }}>
-        <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,42px)', color: '#0e0e0e', margin: '0 0 16px' }}>
+        <h4 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,42px)', color: '#0e0e0e', margin: '0 0 16px' }}>
           Ready to book your journey?
-        </h2>
+        </h4>
         <p style={{ fontSize: 15, lineHeight: 1.6, color: 'rgba(14,14,14,.72)', maxWidth: 520, margin: '0 auto 38px' }}>
           No pricing online — every quote is personalised to your route and requirements.
         </p>

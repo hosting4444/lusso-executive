@@ -34,7 +34,7 @@ export default function Services() {
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d4af37" strokeWidth="1.1"><rect x="3" y="7" width="18" height="13" rx="1.5"/><path d="M8 7V5a2 2 0 012-2h4a2 2 0 012 2v2"/><path d="M3 13h18"/></svg>
               <span style={{ fontFamily: "'Playfair Display',Georgia,serif", fontSize: 30, color: 'rgba(212,175,55,.34)', fontStyle: 'italic' }}>02</span>
             </div>
-            <h3 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 14px' }}>Corporate Travel</h3>
+            <h5 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 14px' }}>Corporate Travel</h5>
             <p style={{ fontSize: 14, lineHeight: 1.7, color: '#999', margin: 0 }}>Priority booking, consistent professional drivers and one consolidated monthly invoice. Airport runs, client collection or team travel — punctual, discreet service every time.</p>
           </div>
 
@@ -43,7 +43,7 @@ export default function Services() {
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d4af37" strokeWidth="1.1"><path d="M3 13l2-5a2 2 0 012-1.5h10A2 2 0 0119 8l2 5"/><path d="M3 13h18v4H3z"/><circle cx="7" cy="17" r="1.5"/><circle cx="17" cy="17" r="1.5"/></svg>
               <span style={{ fontFamily: "'Playfair Display',Georgia,serif", fontSize: 30, color: 'rgba(212,175,55,.34)', fontStyle: 'italic' }}>03</span>
             </div>
-            <h3 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 14px' }}>Executive Transfers</h3>
+            <h5 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 14px' }}>Executive Transfers</h5>
             <p style={{ fontSize: 14, lineHeight: 1.7, color: '#999', margin: 0 }}>Long-distance UK travel in comfort. Meetings, events, private journeys — always in a clean, well-presented executive vehicle.</p>
           </div>
 
@@ -52,7 +52,7 @@ export default function Services() {
               <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#d4af37" strokeWidth="1.1"><circle cx="12" cy="8" r="3.5"/><path d="M5 21c0-4 3-6.5 7-6.5s7 2.5 7 6.5"/><path d="M12 4.5V2"/></svg>
               <span style={{ fontFamily: "'Playfair Display',Georgia,serif", fontSize: 30, color: 'rgba(212,175,55,.34)', fontStyle: 'italic' }}>04</span>
             </div>
-            <h3 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 14px' }}>Meet &amp; Greet</h3>
+            <h5 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 14px' }}>Meet &amp; Greet</h5>
             <p style={{ fontSize: 14, lineHeight: 1.7, color: '#999', margin: 0 }}>Your driver waits at arrivals with a name board. No waiting, no confusion — a smooth handover from terminal to vehicle.</p>
           </div>
 

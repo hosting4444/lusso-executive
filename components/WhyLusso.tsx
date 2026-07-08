@@ -47,7 +47,7 @@ export default function WhyLusso() {
       <div className="sec-inner" style={{ maxWidth: 1280, margin: '0 auto', padding: '104px 32px' }}>
         <div data-reveal="1">
           <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>Why Lusso</div>
-          <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 56px' }}>The Lusso <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Difference</em></h2>
+          <h4 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 56px' }}>The Lusso <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Difference</em></h4>
         </div>
         <div id="why-grid" style={{ display: 'grid', gap: '0 64px' }}>
           {items.map((item) => (

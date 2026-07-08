@@ -17,7 +17,7 @@ export default function ServiceAreas() {
         <div data-reveal="1" style={{ display: 'flex', alignItems: 'flex-end', justifyContent: 'space-between', gap: 24, flexWrap: 'wrap', marginBottom: 56 }}>
           <div>
             <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>Where we go</div>
-            <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>Service <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Areas</em></h2>
+            <h4 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>Service <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Areas</em></h4>
           </div>
           <div style={{ maxWidth: 380 }}>
             <p style={{ fontSize: 13, color: '#555', lineHeight: 1.75, margin: '0 0 14px' }}>We collect from across North Devon and travel to any major airport in the UK — fixed fare, confirmed upfront.</p>

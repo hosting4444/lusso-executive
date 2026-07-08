@@ -11,10 +11,11 @@ export const metadata: Metadata = {
 const GOLD = '#d4af37'
 const serif = "'Playfair Display',Georgia,serif"
 
-function Section({ title, children }: { title: string; children: React.ReactNode }) {
+function Section({ title, children, level = 'h4' }: { title: string; children: React.ReactNode; level?: 'h2' | 'h4' }) {
+  const Heading = level
   return (
     <div style={{ marginBottom: 40 }}>
-      <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 22, color: '#f0f0ea', margin: '0 0 14px' }}>{title}</h2>
+      <Heading style={{ fontFamily: serif, fontWeight: 400, fontSize: 22, color: '#f0f0ea', margin: '0 0 14px' }}>{title}</Heading>
       <div style={{ fontSize: 14, lineHeight: 1.85, color: '#999' }}>{children}</div>
     </div>
   )
@@ -38,7 +39,7 @@ export default function TermsPage() {
       <section style={{ background: '#0e0e0e' }}>
         <div style={{ maxWidth: 860, margin: '0 auto', padding: '72px 32px 96px' }}>
 
-          <Section title="About us">
+          <Section title="About us" level="h2">
             <p>
               Lusso Executive Travel is a licensed and insured private hire operator providing chauffeur services
               across North Devon, Exeter and the wider UK. These terms apply to every booking made with us by phone,

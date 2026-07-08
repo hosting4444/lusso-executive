@@ -19,7 +19,7 @@ export default function Reviews() {
       <div className="sec-inner" style={{ maxWidth: 1280, margin: '0 auto', padding: '104px 32px' }}>
         <div data-reveal="1">
           <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>What clients say</div>
-          <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 56px' }}>Customer <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Reviews</em></h2>
+          <h4 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 56px' }}>Customer <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Reviews</em></h4>
         </div>
         <div id="rev-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(280px,1fr))', gap: 24 }}>
           {reviews.map((r) => (

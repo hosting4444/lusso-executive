@@ -202,9 +202,9 @@ export default function ServicesPage() {
 
           <div>
             <ServiceNum n="02" />
-            <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(26px,3.5vw,38px)', margin: '0 0 16px', lineHeight: 1.15 }}>
+            <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(26px,3.5vw,38px)', margin: '0 0 16px', lineHeight: 1.15 }}>
               Corporate <em style={{ color: GOLD, fontStyle: 'italic' }}>Travel</em>
-            </h2>
+            </h4>
             <p style={{ fontSize: 15, lineHeight: 1.75, color: GOLD, margin: '0 0 18px', fontStyle: 'italic' }}>
               Dependable business travel, with the admin taken care of.
             </p>
@@ -233,9 +233,9 @@ export default function ServicesPage() {
         }}>
           <div>
             <ServiceNum n="03" />
-            <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(26px,3.5vw,38px)', margin: '0 0 16px', lineHeight: 1.15 }}>
+            <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(26px,3.5vw,38px)', margin: '0 0 16px', lineHeight: 1.15 }}>
               Executive <em style={{ color: GOLD, fontStyle: 'italic' }}>Transfers</em>
-            </h2>
+            </h4>
             <p style={{ fontSize: 15, lineHeight: 1.75, color: GOLD, margin: '0 0 18px', fontStyle: 'italic' }}>
               Long-distance UK travel in comfort and style.
             </p>
@@ -280,9 +280,9 @@ export default function ServicesPage() {
 
           <div>
             <ServiceNum n="04" />
-            <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(26px,3.5vw,38px)', margin: '0 0 16px', lineHeight: 1.15 }}>
+            <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(26px,3.5vw,38px)', margin: '0 0 16px', lineHeight: 1.15 }}>
               Meet &amp; <em style={{ color: GOLD, fontStyle: 'italic' }}>Greet</em>
-            </h2>
+            </h4>
             <p style={{ fontSize: 15, lineHeight: 1.75, color: GOLD, margin: '0 0 18px', fontStyle: 'italic' }}>
               A seamless welcome from terminal to vehicle.
             </p>
@@ -309,9 +309,9 @@ export default function ServicesPage() {
             <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
               Why Lusso
             </div>
-            <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>
+            <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>
               Why Travel With <em style={{ color: GOLD, fontStyle: 'italic' }}>Lusso</em>
-            </h2>
+            </h4>
           </div>
           <div style={{
             display: 'grid',
@@ -390,9 +390,9 @@ export default function ServicesPage() {
             <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
               How It Works
             </div>
-            <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>
+            <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>
               Booking Made <em style={{ color: GOLD, fontStyle: 'italic' }}>Simple</em>
-            </h2>
+            </h4>
           </div>
           <div style={{
             display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(220px,1fr))',
@@ -419,22 +419,25 @@ export default function ServicesPage() {
                 desc: 'Your chauffeur arrives on time and takes care of everything from there.',
                 icon: <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke={GOLD} strokeWidth="1.2"><path d="M2 16l9-2 5-9 1.5.5-2.5 8 5-1 1.5 2-3 1.5-1 4-1.5-.5-.5-3-5 1.2L8 22l-1.5-.5 1-4-5 1z"/></svg>,
               },
-            ].map(step => (
-              <div key={step.num} style={{ background: '#111', padding: '44px 32px', position: 'relative' }}>
-                <div style={{ marginBottom: 24 }}>{step.icon}</div>
-                <div style={{
-                  fontFamily: serif, fontStyle: 'italic',
-                  fontSize: 48, color: 'rgba(212,175,55,.14)', lineHeight: 1,
-                  position: 'absolute', top: 28, right: 28,
-                }}>
-                  {step.num}
+            ].map((step, i) => {
+              const StepHeading = i === 0 ? 'h3' : 'h5'
+              return (
+                <div key={step.num} style={{ background: '#111', padding: '44px 32px', position: 'relative' }}>
+                  <div style={{ marginBottom: 24 }}>{step.icon}</div>
+                  <div style={{
+                    fontFamily: serif, fontStyle: 'italic',
+                    fontSize: 48, color: 'rgba(212,175,55,.14)', lineHeight: 1,
+                    position: 'absolute', top: 28, right: 28,
+                  }}>
+                    {step.num}
+                  </div>
+                  <StepHeading style={{ fontFamily: serif, fontWeight: 400, fontSize: 22, margin: '0 0 14px', color: '#f0f0ea' }}>
+                    {step.title}
+                  </StepHeading>
+                  <p style={{ fontSize: 14, lineHeight: 1.75, color: '#666', margin: 0 }}>{step.desc}</p>
                 </div>
-                <h3 style={{ fontFamily: serif, fontWeight: 400, fontSize: 22, margin: '0 0 14px', color: '#f0f0ea' }}>
-                  {step.title}
-                </h3>
-                <p style={{ fontSize: 14, lineHeight: 1.75, color: '#666', margin: 0 }}>{step.desc}</p>
-              </div>
-            ))}
+              )
+            })}
           </div>
         </div>
       </section>
@@ -450,9 +453,9 @@ export default function ServicesPage() {
               <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
                 Where We Travel
               </div>
-              <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(26px,3.5vw,36px)', margin: '0 0 20px', lineHeight: 1.2 }}>
+              <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(26px,3.5vw,36px)', margin: '0 0 20px', lineHeight: 1.2 }}>
                 Service <em style={{ color: GOLD, fontStyle: 'italic' }}>Areas</em>
-              </h2>
+              </h4>
               <p style={{ fontSize: 14, lineHeight: 1.85, color: '#777', margin: '0 0 28px', maxWidth: 520 }}>
                 We collect across North Devon and Exeter — including Barnstaple, Bideford, Braunton, Ilfracombe,
                 South Molton, Croyde, Westward Ho! and Lynton — and travel to all major UK airports including
@@ -498,12 +501,12 @@ export default function ServicesPage() {
       {/* ─── CLOSING CTA ─── */}
       <section style={{ background: GOLD }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '78px 32px', textAlign: 'center' }}>
-          <h2 style={{
+          <h4 style={{
             fontFamily: serif, fontWeight: 400,
             fontSize: 'clamp(28px,4vw,42px)', color: '#0e0e0e', margin: '0 0 16px',
           }}>
             Ready to book your journey?
-          </h2>
+          </h4>
           <p style={{ fontSize: 15, lineHeight: 1.6, color: 'rgba(14,14,14,.72)', maxWidth: 520, margin: '0 auto 38px' }}>
             No pricing online — every quote is personalised to your route and requirements.
           </p>

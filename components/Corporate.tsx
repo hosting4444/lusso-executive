@@ -12,9 +12,9 @@ export default function Corporate() {
 
         <div data-reveal="1">
           <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>For business</div>
-          <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 24px', lineHeight: 1.15 }}>
+          <h4 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 24px', lineHeight: 1.15 }}>
             Corporate <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Accounts</em>
-          </h2>
+          </h4>
           <p style={{ fontSize: 15, lineHeight: 1.8, color: '#9b9b95', margin: '0 0 30px', maxWidth: 440 }}>
             Priority booking, consistent drivers, and one simple monthly invoice. Built for businesses that need to move people on time, every time.
           </p>

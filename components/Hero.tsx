@@ -33,7 +33,7 @@ export default function Hero() {
             Executive Travel,<br /><em style={{ color: '#d4af37', fontStyle: 'italic' }}>Perfectly Timed.</em>
           </h1>
           <p className="h-a3" style={{ fontSize: 17, lineHeight: 1.75, color: '#bcbcb6', maxWidth: 500, margin: '0 0 38px' }}>
-            Professional chauffeur service covering North Devon, Exeter, and all major UK airports. Fixed fares, flight tracking, no surprises.
+            Professional chauffeur service covering North Devon, Exeter, and all major UK airports. Fixed fares, flight tracking, no surprises — a premium alternative to your everyday Barnstaple taxi.
           </p>
           <div className="h-a4" style={{ display: 'flex', gap: 14, flexWrap: 'wrap', marginBottom: 44 }}>
             <a href="#booking" className="btn-shimmer" style={{ background: '#d4af37', color: '#0e0e0e', fontSize: 13, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 700, padding: '17px 32px', minHeight: 44, boxSizing: 'border-box', display: 'inline-flex', alignItems: 'center' }}>

@@ -8,9 +8,9 @@ export default function Contact() {
           <div id="contact-col">
             <div data-reveal="1" style={{ marginBottom: 28 }}>
               <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 14 }}>Get in touch</div>
-              <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(24px,3.5vw,36px)', margin: '0 0 10px' }}>
+              <h4 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(24px,3.5vw,36px)', margin: '0 0 10px' }}>
                 Contact <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Lusso</em>
-              </h2>
+              </h4>
               <p style={{ fontSize: 14, color: '#777', margin: '0 0 14px', maxWidth: 400, lineHeight: 1.7 }}>Available 24/7 — call, email, or WhatsApp, whatever suits you.</p>
               <a href="/contact" style={{
                 display: 'inline-flex', alignItems: 'center', gap: 10,

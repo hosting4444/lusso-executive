@@ -77,7 +77,8 @@ export default function AboutPage() {
             </h1>
             <p style={{ fontSize: 16, lineHeight: 1.82, color: '#9b9b95', margin: 0 }}>
               At Lusso Executive Travel, we provide professional chauffeur services designed to make
-              every journey comfortable, reliable, and stress-free.
+              every journey comfortable, reliable, and stress-free. As the executive chauffeur North Devon
+              clients trust, we pair luxury vehicles with local knowledge on every route.
             </p>
           </div>
 
@@ -159,12 +160,12 @@ export default function AboutPage() {
               <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
                 What Sets Us Apart
               </div>
-              <h2 style={{
+              <h4 style={{
                 fontFamily: serif, fontWeight: 400,
                 fontSize: 'clamp(28px,4vw,42px)', margin: '0 0 28px', lineHeight: 1.12,
               }}>
                 The Lusso <em style={{ color: GOLD, fontStyle: 'italic' }}>Difference</em>
-              </h2>
+              </h4>
               <p style={{ fontSize: 15, lineHeight: 1.88, color: '#888', margin: '0 0 20px' }}>
                 Luxury is more than just a vehicle. It is arriving on time, being treated
                 professionally, and knowing your journey is handled with care.
@@ -219,30 +220,33 @@ export default function AboutPage() {
             <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
               What We Offer
             </div>
-            <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 14px' }}>
+            <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 14px' }}>
               Our <em style={{ color: GOLD, fontStyle: 'italic' }}>Services</em>
-            </h2>
+            </h4>
             <p style={{ fontSize: 14, color: '#666', margin: 0, lineHeight: 1.75 }}>
               We offer chauffeur solutions for every journey — from airport transfers to private executive travel.
             </p>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(240px,1fr))', gap: 18 }}>
-            {services.map(s => (
-              <a key={s.title} href="/services" style={{
-                background: '#111', border: '1px solid rgba(255,255,255,.07)',
-                padding: '36px 28px', borderRadius: 14, textDecoration: 'none', color: 'inherit',
-                display: 'block', transition: 'transform .35s ease, border-color .35s ease, box-shadow .35s ease',
-              }}
-                className="srv-card"
-              >
-                <div style={{ marginBottom: 22 }}>{s.icon}</div>
-                <h3 style={{ fontFamily: serif, fontWeight: 400, fontSize: 20, margin: '0 0 12px' }}>
-                  {s.title}
-                </h3>
-                <p style={{ fontSize: 13.5, lineHeight: 1.72, color: '#888', margin: 0 }}>{s.desc}</p>
-              </a>
-            ))}
+            {services.map((s, i) => {
+              const ServiceHeading = i === 0 ? 'h3' : 'h5'
+              return (
+                <a key={s.title} href="/services" style={{
+                  background: '#111', border: '1px solid rgba(255,255,255,.07)',
+                  padding: '36px 28px', borderRadius: 14, textDecoration: 'none', color: 'inherit',
+                  display: 'block', transition: 'transform .35s ease, border-color .35s ease, box-shadow .35s ease',
+                }}
+                  className="srv-card"
+                >
+                  <div style={{ marginBottom: 22 }}>{s.icon}</div>
+                  <ServiceHeading style={{ fontFamily: serif, fontWeight: 400, fontSize: 20, margin: '0 0 12px' }}>
+                    {s.title}
+                  </ServiceHeading>
+                  <p style={{ fontSize: 13.5, lineHeight: 1.72, color: '#888', margin: 0 }}>{s.desc}</p>
+                </a>
+              )
+            })}
           </div>
 
           <div style={{ marginTop: 36, textAlign: 'center' }}>
@@ -270,12 +274,12 @@ export default function AboutPage() {
               <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
                 Why Us
               </div>
-              <h2 style={{
+              <h4 style={{
                 fontFamily: serif, fontWeight: 400,
                 fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 20px', lineHeight: 1.12,
               }}>
                 Why Choose <em style={{ color: GOLD, fontStyle: 'italic' }}>Lusso?</em>
-              </h2>
+              </h4>
               <p style={{ fontSize: 14, lineHeight: 1.82, color: '#777', margin: 0 }}>
                 Every aspect of your journey is designed around reliability, comfort, and a
                 professional experience from first contact to final drop-off.
@@ -311,13 +315,13 @@ export default function AboutPage() {
               <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
                 Where We Serve
               </div>
-              <h2 style={{
+              <h4 style={{
                 fontFamily: serif, fontWeight: 400,
                 fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 24px', lineHeight: 1.12,
               }}>
                 Serving North Devon{' '}
                 <em style={{ color: GOLD, fontStyle: 'italic' }}>&amp; Beyond</em>
-              </h2>
+              </h4>
               <p style={{ fontSize: 14, lineHeight: 1.88, color: '#888', margin: '0 0 18px' }}>
                 We proudly cover North Devon, Barnstaple, Bideford, Braunton, Ilfracombe,
                 South Molton, Exeter, and surrounding areas.
@@ -380,12 +384,12 @@ export default function AboutPage() {
       {/* ─── CLOSING CTA ─── */}
       <section style={{ background: GOLD }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '78px 32px', textAlign: 'center' }}>
-          <h2 style={{
+          <h4 style={{
             fontFamily: serif, fontWeight: 400,
             fontSize: 'clamp(28px,4vw,42px)', color: '#0e0e0e', margin: '0 0 16px',
           }}>
             Ready to book your journey?
-          </h2>
+          </h4>
           <p style={{ fontSize: 15, lineHeight: 1.6, color: 'rgba(14,14,14,.72)', maxWidth: 480, margin: '0 auto 38px' }}>
             No pricing online — every quote is personalised to your route and requirements.
           </p>

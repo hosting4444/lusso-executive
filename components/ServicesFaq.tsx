@@ -45,9 +45,9 @@ export default function ServicesFaq() {
           <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
             Common Questions
           </div>
-          <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>
+          <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>
             Service <em style={{ color: GOLD, fontStyle: 'italic' }}>FAQs</em>
-          </h2>
+          </h4>
         </div>
 
         <div style={{

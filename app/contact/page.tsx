@@ -89,7 +89,7 @@ export default function ContactPage() {
             <p style={{ fontSize: 16, lineHeight: 1.82, color: '#9b9b95', margin: 0 }}>
               Whether you need an airport transfer, corporate chauffeur service, or private executive
               travel, our team is ready to help. Contact Lusso Executive Travel today and receive a
-              personalised quote for your journey.
+              personalised quote for your journey — including our popular Exeter Airport Taxi service.
             </p>
           </div>
 
@@ -200,12 +200,12 @@ export default function ContactPage() {
             <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
               How We Can Help
             </div>
-            <h2 style={{
+            <h4 style={{
               fontFamily: serif, fontWeight: 400,
               fontSize: 'clamp(26px,3.5vw,36px)', margin: '0 0 18px', lineHeight: 1.15,
             }}>
               Book Your Chauffeur <em style={{ color: GOLD, fontStyle: 'italic' }}>Service</em>
-            </h2>
+            </h4>
             <p style={{ fontSize: 14, lineHeight: 1.82, color: '#888', margin: '0 0 30px' }}>
               Tell us your travel details and we will arrange a smooth and reliable chauffeur experience.
             </p>
@@ -289,14 +289,14 @@ export default function ContactPage() {
           <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 20 }}>
             Travel With Confidence
           </div>
-          <h2 style={{
+          <h4 style={{
             fontFamily: serif, fontWeight: 400,
             fontSize: 'clamp(26px,3.5vw,38px)', margin: '0 0 18px', lineHeight: 1.2,
           }}>
             Professional chauffeurs.{' '}
             <em style={{ color: GOLD, fontStyle: 'italic' }}>Comfortable vehicles.</em>{' '}
             Reliable service.
-          </h2>
+          </h4>
           <p style={{ fontSize: 15, lineHeight: 1.75, color: '#777', maxWidth: 480, margin: '0 auto 38px' }}>
             Experience a premium chauffeur journey with Lusso Executive Travel.
           </p>

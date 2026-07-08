@@ -5,9 +5,9 @@ export default function About() {
 
         <div data-reveal="1" style={{ borderLeft: '2px solid rgba(212,175,55,.35)', paddingLeft: 28 }}>
           <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>About us</div>
-          <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 24px', lineHeight: 1.15 }}>
+          <h4 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 24px', lineHeight: 1.15 }}>
             Lusso <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Executive Travel</em>
-          </h2>
+          </h4>
           <p style={{ fontSize: 14, lineHeight: 1.85, color: '#888', margin: '0 0 16px' }}>
             Based in North Devon, Lusso Executive Travel is a licensed and insured private hire operator providing professional chauffeur services across the region and beyond.
           </p>

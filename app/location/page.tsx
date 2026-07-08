@@ -17,7 +17,7 @@ const pickups = [
   {
     num: '01',
     name: 'Barnstaple',
-    desc: 'The main market town of North Devon and our home base — door-to-door collection for all airport and executive transfers.',
+    desc: 'The main market town of North Devon and our home base for Barnstaple Airport Transfers — door-to-door collection for all airport and executive transfers.',
     img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Barnstaple%20Long%20Bridge%20(8178574763).jpg?width=1024',
     credit: 'Darren Shilson, CC BY 2.0, via Wikimedia Commons',
   },
@@ -97,7 +97,7 @@ const airports = [
     num: '01',
     name: 'Heathrow',
     tag: 'London',
-    desc: "London's largest international airport. Direct transfers with real-time flight tracking and full meet & greet.",
+    desc: "London's largest international airport. Our Heathrow Airport Transfers include real-time flight tracking and full meet & greet.",
     img: 'https://images.unsplash.com/photo-1571514926545-c61ae8be36be?auto=format&fit=crop&w=1000&q=75',
   },
   {
@@ -111,7 +111,7 @@ const airports = [
     num: '03',
     name: 'Bristol',
     tag: 'Bristol',
-    desc: 'The South West\'s gateway airport. One of our most popular routes — comfortable, punctual and fixed price.',
+    desc: 'The South West\'s gateway airport. Our Bristol Airport Taxi route is one of our most popular — comfortable, punctual and fixed price.',
     img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Bristol%20Airport%20terminal%20and%20Control%20Tower%20-%20June%202025.jpg?width=1024',
     credit: 'Captain Galaxy, CC BY 4.0, via Wikimedia Commons',
   },
@@ -141,10 +141,11 @@ const airports = [
 ]
 
 function LocationCard({
-  num, name, desc, img, tag,
+  num, name, desc, img, tag, isFirst,
 }: {
-  num: string; name: string; desc: string; img: string; tag?: string
+  num: string; name: string; desc: string; img: string; tag?: string; isFirst?: boolean
 }) {
+  const NameHeading = isFirst ? 'h3' : 'h5'
   return (
     <div style={{
       position: 'relative', overflow: 'hidden', borderRadius: 14,
@@ -185,12 +186,12 @@ function LocationCard({
 
       {/* name + desc */}
       <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, padding: '28px 24px' }}>
-        <h3 style={{
+        <NameHeading style={{
           fontFamily: serif, fontWeight: 400, fontSize: 'clamp(22px,2.5vw,28px)',
           margin: '0 0 10px', lineHeight: 1.1, color: '#f5f5f0',
         }}>
           {name}
-        </h3>
+        </NameHeading>
         <p style={{ fontSize: 13, lineHeight: 1.65, color: 'rgba(255,255,255,.72)', margin: 0 }}>
           {desc}
         </p>
@@ -223,8 +224,9 @@ export default function LocationPage() {
               Our Service <em style={{ color: GOLD, fontStyle: 'italic' }}>Locations</em>
             </h1>
             <p style={{ fontSize: 16, lineHeight: 1.82, color: '#9b9b95', margin: '0 0 38px' }}>
-              We collect from across North Devon and Exeter and travel to all major UK airports —
-              fixed fare confirmed up front, flight tracking included.
+              Looking for a North Devon taxi alternative? We collect from across North Devon and Exeter
+              and travel to all major UK airports with luxury airport transfers — fixed fare confirmed
+              up front, flight tracking included.
             </p>
             <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap' }}>
               {['Licensed & Insured', 'DBS-Checked Drivers', '24/7 Availability', 'Fixed Fares'].map(t => (
@@ -267,8 +269,8 @@ export default function LocationPage() {
             gridTemplateColumns: 'repeat(auto-fill,minmax(240px,1fr))',
             gap: 18,
           }}>
-            {pickups.map(p => (
-              <LocationCard key={p.name} {...p} />
+            {pickups.map((p, i) => (
+              <LocationCard key={p.name} {...p} isFirst={i === 0} />
             ))}
           </div>
         </div>
@@ -281,9 +283,9 @@ export default function LocationPage() {
             <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 16 }}>
               Airport Transfers
             </div>
-            <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 14px' }}>
+            <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 14px' }}>
               Airports <em style={{ color: GOLD, fontStyle: 'italic' }}>We Serve</em>
-            </h2>
+            </h4>
             <p style={{ fontSize: 14, color: '#666', margin: 0, lineHeight: 1.75, maxWidth: 520 }}>
               We travel to Heathrow, Gatwick, Bristol, Exeter, Birmingham, Luton and all other
               major UK airports — with real-time flight tracking and free waiting time for delays.
@@ -335,12 +337,12 @@ export default function LocationPage() {
       {/* ─── CTA ─── */}
       <section style={{ background: GOLD }}>
         <div style={{ maxWidth: 1280, margin: '0 auto', padding: '78px 32px', textAlign: 'center' }}>
-          <h2 style={{
+          <h4 style={{
             fontFamily: serif, fontWeight: 400,
             fontSize: 'clamp(28px,4vw,42px)', color: '#0e0e0e', margin: '0 0 16px',
           }}>
             Ready to book your journey?
-          </h2>
+          </h4>
           <p style={{ fontSize: 15, lineHeight: 1.6, color: 'rgba(14,14,14,.72)', maxWidth: 480, margin: '0 auto 38px' }}>
             No pricing online — every quote is personalised to your route and requirements.
           </p>

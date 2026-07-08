@@ -44,7 +44,7 @@ export default function Fleet() {
       <div style={{ maxWidth: 1280, margin: '0 auto', padding: '104px 32px' }}>
         <div data-reveal="1">
           <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>Our vehicles</div>
-          <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 56px' }}>The <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Fleet</em></h2>
+          <h4 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: '0 0 56px' }}>The <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Fleet</em></h4>
         </div>
         <div id="fleet-grid" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(280px,1fr))', gap: 24 }}>
           {vehicles.map((v) => (
@@ -59,7 +59,7 @@ export default function Fleet() {
               />
               <div style={{ padding: '26px 26px 30px' }}>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 12, marginBottom: 16 }}>
-                  <h3 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 21, margin: 0 }}>{v.name}</h3>
+                  <h5 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 21, margin: 0 }}>{v.name}</h5>
                   <span style={{ fontSize: 10, letterSpacing: 2, textTransform: 'uppercase', color: '#d4af37', whiteSpace: 'nowrap' }}>{v.badge}</span>
                 </div>
                 <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
@@ -74,7 +74,7 @@ export default function Fleet() {
 
         <div style={{ marginTop: 56 }}>
           <div style={{ fontSize: 10, letterSpacing: 3, textTransform: 'uppercase', color: '#d4af37', marginBottom: 16 }}>Inside the Tayron</div>
-          <h3 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 24px' }}>Interior <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Comfort</em></h3>
+          <h5 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 22, margin: '0 0 24px' }}>Interior <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Comfort</em></h5>
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit,minmax(220px,1fr))', gap: 18 }}>
             {tayronInterior.map((shot) => (
               <div key={shot.label}>

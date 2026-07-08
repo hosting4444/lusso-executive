@@ -20,9 +20,9 @@ export default function Faq({
           <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: GOLD, marginBottom: 18 }}>
             {eyebrow}
           </div>
-          <h2 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>
+          <h4 style={{ fontFamily: serif, fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>
             {title} <em style={{ color: GOLD, fontStyle: 'italic' }}>{titleEm}</em>
-          </h2>
+          </h4>
         </div>
 
         <div style={{
