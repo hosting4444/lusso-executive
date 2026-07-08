@@ -333,6 +333,18 @@ export default function AboutPage() {
               }}>
                 Request a Quote Today
               </a>
+              <div style={{ marginTop: 24 }}>
+                <a href="/location" style={{
+                  display: 'inline-flex', alignItems: 'center', gap: 10,
+                  color: GOLD, fontSize: 12, letterSpacing: 1.5,
+                  textTransform: 'uppercase', fontWeight: 600,
+                }}>
+                  View All Service Areas
+                  <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <path d="M5 12h14M12 5l7 7-7 7" />
+                  </svg>
+                </a>
+              </div>
             </div>
 
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: 10, alignContent: 'flex-start' }}>

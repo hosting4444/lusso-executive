@@ -11,7 +11,16 @@ export default function Contact() {
               <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(24px,3.5vw,36px)', margin: '0 0 10px' }}>
                 Contact <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Lusso</em>
               </h2>
-              <p style={{ fontSize: 14, color: '#777', margin: 0, maxWidth: 400, lineHeight: 1.7 }}>Available 24/7 — call, email, or WhatsApp, whatever suits you.</p>
+              <p style={{ fontSize: 14, color: '#777', margin: '0 0 14px', maxWidth: 400, lineHeight: 1.7 }}>Available 24/7 — call, email, or WhatsApp, whatever suits you.</p>
+              <a href="/contact" style={{
+                display: 'inline-flex', alignItems: 'center', gap: 10,
+                color: '#d4af37', fontSize: 12, letterSpacing: 2, textTransform: 'uppercase', fontWeight: 600,
+              }}>
+                Visit our contact page
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </a>
             </div>
 
             <a href="tel:+447557261273" className="contact-row contact-anim">

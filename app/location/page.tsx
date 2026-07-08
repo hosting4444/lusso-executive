@@ -319,6 +319,14 @@ export default function LocationPage() {
           <p style={{ fontSize: 10.5, lineHeight: 1.8, color: '#3a3a3a', margin: '28px 0 0', maxWidth: 900 }}>
             Photo credits: {[...pickups, ...airports].filter(p => p.credit).map(p => `${p.name} — ${p.credit}`).join(' · ')}
           </p>
+          <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap', marginTop: 28 }}>
+            <a href="/services" style={{ color: GOLD, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>
+              Our Services
+            </a>
+            <a href="/about" style={{ color: GOLD, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>
+              About Lusso
+            </a>
+          </div>
         </div>
       </section>
 

@@ -358,13 +358,23 @@ export default function ServicesPage() {
               </div>
             ))}
           </div>
-          <div style={{ textAlign: 'center', marginTop: 36 }}>
+          <div style={{ display: 'flex', gap: 32, flexWrap: 'wrap', justifyContent: 'center', marginTop: 36 }}>
             <a href="/" style={{
               display: 'inline-flex', alignItems: 'center', gap: 10,
               color: GOLD, fontSize: 12, letterSpacing: 2,
               textTransform: 'uppercase', fontWeight: 600,
             }}>
               See all reasons
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a href="/about" style={{
+              display: 'inline-flex', alignItems: 'center', gap: 10,
+              color: GOLD, fontSize: 12, letterSpacing: 2,
+              textTransform: 'uppercase', fontWeight: 600,
+            }}>
+              About Lusso
               <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>

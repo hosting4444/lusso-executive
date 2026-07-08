@@ -19,7 +19,18 @@ export default function ServiceAreas() {
             <div style={{ fontSize: 10, letterSpacing: 5, textTransform: 'uppercase', color: '#d4af37', marginBottom: 18 }}>Where we go</div>
             <h2 style={{ fontFamily: "'Playfair Display',Georgia,serif", fontWeight: 400, fontSize: 'clamp(28px,4vw,40px)', margin: 0 }}>Service <em style={{ color: '#d4af37', fontStyle: 'italic' }}>Areas</em></h2>
           </div>
-          <p style={{ fontSize: 13, color: '#555', maxWidth: 380, lineHeight: 1.75, margin: 0 }}>We collect from across North Devon and travel to any major airport in the UK — fixed fare, confirmed upfront.</p>
+          <div style={{ maxWidth: 380 }}>
+            <p style={{ fontSize: 13, color: '#555', lineHeight: 1.75, margin: '0 0 14px' }}>We collect from across North Devon and travel to any major airport in the UK — fixed fare, confirmed upfront.</p>
+            <a href="/location" style={{
+              display: 'inline-flex', alignItems: 'center', gap: 10,
+              color: '#d4af37', fontSize: 12, letterSpacing: 2, textTransform: 'uppercase', fontWeight: 600,
+            }}>
+              View all locations
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
         </div>
 
         <div className="areas-grid" data-reveal="1" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 1, background: 'rgba(212,175,55,.12)' }}>

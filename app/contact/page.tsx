@@ -317,6 +317,17 @@ export default function ContactPage() {
               Call Us Now
             </a>
           </div>
+          <div style={{ display: 'flex', gap: 28, flexWrap: 'wrap', justifyContent: 'center', marginTop: 36 }}>
+            <a href="/services" style={{ color: GOLD, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>
+              Our Services
+            </a>
+            <a href="/about" style={{ color: GOLD, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>
+              About Lusso
+            </a>
+            <a href="/location" style={{ color: GOLD, fontSize: 12, letterSpacing: 1.5, textTransform: 'uppercase', fontWeight: 600 }}>
+              Our Locations
+            </a>
+          </div>
         </div>
       </section>
 

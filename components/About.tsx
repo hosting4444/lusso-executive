@@ -30,6 +30,17 @@ export default function About() {
               <div style={{ fontSize: 9, letterSpacing: 2.5, textTransform: 'uppercase', color: '#555' }}>Checked</div>
             </div>
           </div>
+          <div style={{ marginTop: 28 }}>
+            <a href="/about" style={{
+              display: 'inline-flex', alignItems: 'center', gap: 10,
+              color: '#d4af37', fontSize: 12, letterSpacing: 2, textTransform: 'uppercase', fontWeight: 600,
+            }}>
+              Learn more about us
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </a>
+          </div>
         </div>
 
         <div data-reveal="1" style={{ padding: 10 }}>
