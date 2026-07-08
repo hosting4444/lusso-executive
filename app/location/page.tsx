@@ -5,9 +5,9 @@ import WhatsAppFloat from '@/components/WhatsAppFloat'
 import LocationFaq from '@/components/LocationFaq'
 
 export const metadata: Metadata = {
-  title: 'Service Locations | Lusso Executive Travel — North Devon & UK Airports',
+  title: 'Luxury Airport Transfers | North Devon Taxi Service',
   description:
-    'Lusso Executive Travel covers Barnstaple, Bideford, Ilfracombe, Exeter and all North Devon. Airport transfers to Heathrow, Gatwick, Bristol, Birmingham, Luton and beyond.',
+    'Luxury Airport Transfers from North Devon to Heathrow, Bristol & more. Reliable chauffeur service, fixed fares & flight tracking included. Book now!',
 }
 
 const GOLD = '#d4af37'

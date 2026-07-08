@@ -7,9 +7,9 @@ import ScrollEffects from '@/components/ScrollEffects'
 import ContactFaq from '@/components/ContactFaq'
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Lusso Executive Travel — North Devon Chauffeur Service',
+  title: 'Exeter Airport Taxi | Premium North Devon Transfers',
   description:
-    'Get in touch with Lusso Executive Travel for airport transfers, corporate travel and executive chauffeur services across North Devon, Exeter and all major UK airports.',
+    "Exeter Airport Taxi with Lusso Executive - North Devon's trusted luxury chauffeur service. 24/7 transfers to all major UK airports. Book your ride today!",
 }
 
 const GOLD = '#d4af37'

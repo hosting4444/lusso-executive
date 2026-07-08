@@ -9,9 +9,9 @@ import WhatsAppFloat from '@/components/WhatsAppFloat'
 import ScrollEffects from '@/components/ScrollEffects'
 
 export const metadata: Metadata = {
-  title: 'Lusso Executive Travel',
+  title: 'Airport Transfers North Devon | Lusso Executive',
   description:
-    'Licensed private hire chauffeur service in North Devon offering executive airport transfers, corporate travel and meet & greet across Devon and all major UK airports.',
+    'Airport Transfers North Devon to Heathrow, Exeter & Bristol. Professional chauffeur service with flight tracking, fixed fares & 24/7 availability guaranteed.',
 }
 
 const GOLD = '#d4af37'
