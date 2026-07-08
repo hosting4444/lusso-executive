@@ -25,13 +25,13 @@ const vehicles = [
     tags: ['Up to 5 passengers', 'Ample luggage', 'Leather interior'],
   },
   {
-    src: '/images/tayron-rear-studio.jpeg',
+    src: '/images/executive-saloon-black-sedan.jpeg',
     name: 'Executive Saloon',
     badge: 'Business Class',
     tags: ['Up to 4 passengers', 'Climate control', 'USB charging'],
   },
   {
-    src: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Mercedes-Benz_V-class_VIP.JPG',
+    src: '/images/large-mpv-black-van.jpeg',
     name: 'Large MPV',
     badge: 'Group Travel',
     tags: ['Up to 6 passengers', 'Extra luggage', 'Airport ready'],
