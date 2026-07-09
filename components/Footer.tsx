@@ -16,6 +16,10 @@ export default function Footer() {
             Licensed private hire chauffeur service — North Devon, Exeter &amp; all major UK airports.
           </p>
           <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
+            <span className="footer-link" style={{ cursor: 'default' }}>
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ flexShrink: 0 }}><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/><circle cx="12" cy="9" r="2.5"/></svg>
+              Vicarage Lawn, Barnstaple, EX32 7BW
+            </span>
             <a href="tel:+447557261273" className="footer-link">
               <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" style={{ flexShrink: 0 }}><path d="M5 4h4l2 5-2.5 1.5a11 11 0 005 5L15 13l5 2v4a2 2 0 01-2 2A16 16 0 013 6a2 2 0 012-2z"/></svg>
               +44 7557 261273
