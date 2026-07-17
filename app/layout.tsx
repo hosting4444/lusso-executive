@@ -44,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
+        <meta name="google-site-verification" content="q9INgy1-gMKbzZJaSUavRwJtIDCIMAqb8aAqk5X_FH8" />
       </head>
       <body>{children}</body>
     </html>
